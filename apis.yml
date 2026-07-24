@@ -1,8 +1,26 @@
 aid: camiant
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/camiant.png
 name: Camiant
-description: 'Camiant is a company surfaced as a portfolio company of matrix-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Camiant, Inc. was a policy control and application-assurance technology vendor for
+  broadband and mobile service providers, founded in 2003 in Marlborough, Massachusetts (originally
+  Chameleon Solutions). Its Multimedia Policy Engine implemented 3GPP Release 8/9 Policy and Charging
+  Rules Function (PCRF) capabilities and was deployed by operators including Verizon, Vodafone, Sprint,
+  Comcast, and Cox. Tekelec acquired Camiant in 2010 for approximately $130 million, and the business
+  was later folded into Oracle Communications. Camiant no longer operates as an independent company and
+  publishes no developer portal, API, or documentation; its former domain (camiant.com) is parked.
+  Surfaced as a matrix-partners portfolio lead, this profile records verified public history rather
+  than a live API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/camiant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,29 @@ x-backed-by:
 - matrix-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by:
+- tekelec
+- oracle
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Infrastructure
+- Telecom
+- Policy Control
+- PCRF
+- Broadband
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
